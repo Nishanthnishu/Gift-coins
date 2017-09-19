@@ -1,0 +1,22 @@
+V1.0
+Gift my friend is a website where a user can transfer coins to their friends by asking them questions.
+- Initially every new user will be given 1000 coins
+- All users list will be displayed to a user
+- A user ('A') can click on any user and ask them a question offering any amount of coins within their limit.
+- The other user ('B') who receives the question can either answer or reject the question.
+- User ('B') will receive coins from the user ('A') only if he answers to the question and if the User(A) accepts the answer.
+- Users must receive notification whenever they receives a question.
+- The User profile must contain list of questions answered and the amount he gained.
+- Also the list of question the user has asked .
+
+--- Creating models for the app
+	
+	Question class -- Question_text
+		       --  Published date
+		       --  status of the question
+		       --  Cost of question
+
+	Answer class   --  question (foreignkey)
+		       --  answer_text
+		       --  published date
+		       
